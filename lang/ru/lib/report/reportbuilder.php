@@ -1,0 +1,13 @@
+<?php
+$MESS['ACRIT_PERFMON_REPORT_TITLE'] = 'Отчёт по тестам производительности';
+$MESS['ACRIT_PERFMON_REPORT_DATE'] = 'Дата и время';
+$MESS['ACRIT_PERFMON_REPORT_SITE'] = 'Сайт';
+$MESS['ACRIT_PERFMON_REPORT_PHP'] = 'Версия PHP';
+$MESS['ACRIT_PERFMON_REPORT_BITRIX'] = 'Версия Битрикса';
+$MESS['ACRIT_PERFMON_REPORT_SUMMARY'] = 'Краткая сводка';
+$MESS['ACRIT_PERFMON_REPORT_TOTAL'] = 'Всего тестов';
+$MESS['ACRIT_PERFMON_REPORT_SUCCESS'] = 'Успешно';
+$MESS['ACRIT_PERFMON_REPORT_FAIL'] = 'Проблемы';
+$MESS['ACRIT_PERFMON_REPORT_STATUS'] = 'Статус';
+$MESS['ACRIT_PERFMON_REPORT_MESSAGE'] = 'Результат';
+$MESS['ACRIT_PERFMON_REPORT_DESCRIPTION'] = 'Что проверялось';

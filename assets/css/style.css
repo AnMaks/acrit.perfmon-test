@@ -1,0 +1,433 @@
+.acrit-perfmon-system-check {
+    margin-top: 8px;
+    color: #2f3437
+}
+
+.acrit-perfmon-system-check__intro {
+    font-size: 14px;
+    line-height: 20px;
+    color: #2f3437;
+    margin: 0 0 14px
+}
+
+.acrit-perfmon-system-check__panel, .acrit-perfmon-history-block {
+    background: transparent;
+    border: 0;
+    border-radius: 0;
+    box-shadow: none;
+    margin: 0
+}
+
+.acrit-perfmon-system-check__title-wrap, .acrit-perfmon-history-block__title {
+    padding: 18px 20px 10px
+}
+
+.acrit-perfmon-system-check__title {
+    font-size: 28px;
+    line-height: 32px;
+    color: #1f2937;
+    font-weight: normal
+}
+
+.acrit-perfmon-system-check__controls, .acrit-perfmon-system-check__progress-title, .acrit-perfmon-system-check__progress-row, .acrit-perfmon-system-check__progress-note, .acrit-perfmon-system-check__footer {
+    padding-left: 20px;
+    padding-right: 20px
+}
+
+.acrit-perfmon-system-check__controls {
+    padding-top: 0;
+    padding-bottom: 10px
+}
+
+.acrit-perfmon-system-check__controls .adm-btn, .acrit-perfmon-system-check__controls .adm-btn-save {
+    margin-right: 8px
+}
+
+.acrit-perfmon-system-check__progress-title {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: bold;
+    color: #111;
+    padding-top: 0;
+    padding-bottom: 6px
+}
+
+.acrit-perfmon-system-check__progress-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-bottom: 8px
+}
+
+.acrit-perfmon-system-check__progress-bar {
+    position: relative;
+    flex: 1 1 auto;
+    height: 24px;
+    border: 1px solid #b7c7d2;
+    background: #eef3f7;
+    overflow: hidden
+}
+
+.acrit-perfmon-system-check__progress-fill {
+    height: 100%;
+    width: 0;
+    background: linear-gradient(to bottom, #c1d2df 0%, #aac0d1 100%);
+    transition: width .25s ease
+}
+
+.acrit-perfmon-system-check__progress-percent {
+    min-width: 52px;
+    font-size: 20px;
+    line-height: 24px;
+    color: #111;
+    text-align: right
+}
+
+.acrit-perfmon-system-check__progress-note {
+    font-size: 14px;
+    line-height: 20px;
+    color: #2f3437;
+    padding-bottom: 6px
+}
+
+.acrit-perfmon-system-check__progress-note--muted {
+    color: #66727d;
+    padding-bottom: 14px
+}
+
+.acrit-perfmon-summary {
+    display: flex;
+    gap: 14px;
+    padding: 4px 20px 18px;
+    flex-wrap: wrap
+}
+
+.acrit-perfmon-summary__item {
+    min-width: 220px;
+    flex: 0 1 220px;
+    background: linear-gradient(to bottom, #fafcfd 0%, #edf2f6 100%);
+    border: 1px solid #c7d3dc;
+    box-shadow: inset 0 1px 0 #fff;
+    border-radius: 2px;
+    padding: 14px 16px
+}
+
+.acrit-perfmon-summary__label {
+    display: block;
+    font-size: 12px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #6a7784;
+    letter-spacing: .04em;
+    margin-bottom: 8px
+}
+
+.acrit-perfmon-summary__value {
+    display: block;
+    font-size: 34px;
+    line-height: 36px;
+    color: #1f2937
+}
+
+.acrit-perfmon-summary__item--success .acrit-perfmon-summary__value {
+    color: #4d8f00
+}
+
+.acrit-perfmon-summary__item--fail .acrit-perfmon-summary__value {
+    color: #c83d14
+}
+
+.acrit-perfmon-panel-section {
+    border-top: 1px solid #d7dfe5;
+    margin-top: 18px;
+    padding-top: 18px
+}
+
+.acrit-perfmon-settings-block {
+    background: transparent;
+    border: 0;
+    border-radius: 0;
+    box-shadow: none;
+    margin: 0
+}
+
+.acrit-perfmon-settings-block__title {
+    padding: 0 20px 10px;
+    font-size: 20px;
+    line-height: 24px;
+    color: #1f2937;
+    font-weight: normal
+}
+
+.acrit-perfmon-settings-block__body {
+    padding: 0 20px 18px
+}
+
+.acrit-perfmon-settings-table {
+    width: 100%;
+    border-collapse: collapse
+}
+
+.acrit-perfmon-settings-table td {
+    padding: 10px 8px 10px 0;
+    vertical-align: middle;
+    font-size: 14px;
+    line-height: 20px;
+    color: #2f3437
+}
+
+.acrit-perfmon-settings-table td:first-child {
+    width: 360px
+}
+
+.acrit-perfmon-settings-table .adm-input {
+    max-width: 120px
+}
+
+.acrit-perfmon-settings-note {
+    font-size: 12px;
+    line-height: 18px;
+    color: #6a7784;
+    margin-top: 8px
+}
+
+.acrit-perfmon-result-table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed
+}
+
+.acrit-perfmon-result-table td {
+    border-top: 1px solid #d7dfe5;
+    padding: 14px 10px;
+    vertical-align: middle;
+    font-size: 14px;
+    line-height: 18px;
+    color: #2f3437;
+    background: #fff
+}
+
+.acrit-perfmon-result-table__group-row td {
+    background: #dfe7ed;
+    border-top: 1px solid #c4d0d8;
+    border-bottom: 1px solid #c4d0d8;
+    font-weight: bold;
+    color: #4d5964;
+    padding: 9px 14px
+}
+
+.acrit-perfmon-result-table__title-cell {
+    width: 38%
+}
+
+.acrit-perfmon-result-table__status-cell {
+    width: 58%
+}
+
+.acrit-perfmon-result-table__help-cell {
+    width: 4%;
+    text-align: center;
+    white-space: nowrap
+}
+
+.acrit-perfmon-result-table__status-wrap {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    max-width: 100%
+}
+
+.acrit-perfmon-result-table__status-icon {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    position: relative;
+    flex: 0 0 18px;
+    box-sizing: border-box
+}
+
+.acrit-perfmon-result-table__status-wrap.is-success .acrit-perfmon-result-table__status-icon {
+    border: 2px solid #a4b0b8;
+    background: #f6f8fa
+}
+
+.acrit-perfmon-result-table__status-wrap.is-success .acrit-perfmon-result-table__status-icon:before {
+    content: "";
+    position: absolute;
+    left: 4px;
+    top: 1px;
+    width: 5px;
+    height: 9px;
+    border-right: 2px solid #7c8a94;
+    border-bottom: 2px solid #7c8a94;
+    transform: rotate(45deg)
+}
+
+.acrit-perfmon-result-table__status-wrap.is-fail .acrit-perfmon-result-table__status-icon {
+    background: #8c989f
+}
+
+.acrit-perfmon-result-table__status-wrap.is-fail .acrit-perfmon-result-table__status-icon:before {
+    content: "!";
+    position: absolute;
+    left: 6px;
+    top: -1px;
+    color: #fff;
+    font-size: 13px;
+    line-height: 18px;
+    font-weight: bold
+}
+
+.acrit-perfmon-result-table__status-wrap.is-success .acrit-perfmon-result-table__status-text {
+    color: #4d8f00
+}
+
+.acrit-perfmon-result-table__status-wrap.is-fail .acrit-perfmon-result-table__status-text {
+    color: #111
+}
+
+.acrit-perfmon-help-link {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    border: 1px solid #b6c2ca;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, #f9fbfc 0%, #e5edf2 100%);
+    color: #778591;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 13px
+}
+
+.acrit-perfmon-help-link:hover {
+    text-decoration: none;
+    background: linear-gradient(to bottom, #fff 0%, #edf3f7 100%)
+}
+
+.acrit-perfmon-system-check__footer {
+    padding-top: 16px;
+    padding-bottom: 18px
+}
+
+.acrit-perfmon-system-check__footer.is-hidden, .acrit-perfmon-results.is-hidden {
+    display: none
+}
+
+.acrit-perfmon-hint-popup {
+    max-width: 440px;
+    padding: 2px 4px
+}
+
+.acrit-perfmon-hint-popup__title {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #1f2937
+}
+
+.acrit-perfmon-hint-popup__text, .acrit-perfmon-hint-popup__row {
+    font-size: 13px;
+    line-height: 18px;
+    color: #3d4a5a;
+    margin-top: 8px
+}
+
+.acrit-perfmon-result-table--history td:first-child {
+    width: 180px
+}
+
+.acrit-perfmon-result-table--history td:nth-child(2) {
+    width: 120px
+}
+
+.acrit-perfmon-system-check, .acrit-perfmon-system-check__panel, .acrit-perfmon-settings-block, .acrit-perfmon-history-block, .acrit-perfmon-result-table, .acrit-perfmon-settings-table, .acrit-perfmon-summary, .acrit-perfmon-system-check__progress-row, .acrit-perfmon-system-check__progress-bar {
+    box-sizing: border-box;
+    max-width: 100%
+}
+
+.acrit-perfmon-system-check, .acrit-perfmon-system-check__panel, .acrit-perfmon-settings-block, .acrit-perfmon-history-block {
+    overflow: hidden
+}
+
+.adm-detail-content-btns-wrap {
+    display: none !important
+}
+
+.acrit-perfmon-form-buttons {
+    margin: 18px 0 0;
+    padding: 12px 14px;
+    border: 1px solid #c9d4dc;
+    background: #fff;
+    box-shadow: inset 0 1px 0 #fff;
+    overflow: hidden;
+    box-sizing: border-box;
+    max-width: 100%
+}
+
+.acrit-perfmon-form-buttons .adm-btn, .acrit-perfmon-form-buttons .adm-btn-save {
+    margin-right: 8px;
+    margin-bottom: 6px
+}
+
+.acrit-perfmon-hint-source {
+    display: none
+}
+
+.acrit-perfmon-inline-message {
+    margin-bottom: 18px
+}
+
+.acrit-perfmon-support-text {
+    font-size: 14px;
+    line-height: 20px;
+    color: #3d4a5a
+}
+
+.acrit-perfmon-support-list {
+    margin-top: 10px
+}
+
+.acrit-perfmon-support-list > div {
+    margin-bottom: 6px
+}
+
+.acrit-perfmon-autofill-note {
+    display: none;
+    margin-top: 8px;
+    color: #3b8f00;
+    font-weight: bold
+}
+
+.acrit-perfmon-autofill-note--visible {
+    display: block
+}
+
+.acrit-perfmon-pulse {
+    box-shadow: 0 0 0 3px rgba(59, 143, 0, .2)
+}
+
+.acrit-perfmon-support-center {
+    text-align: center
+}
+
+.acrit-perfmon-support-field-label {
+    padding-top: 10px;
+    vertical-align: top
+}
+
+.acrit-perfmon-support-textarea-wrap {
+    margin-bottom: 6px
+}
+
+.acrit-perfmon-support-textarea {
+    resize: vertical;
+    width: 96%
+}
+
+.acrit-perfmon-support-button-wrap {
+    margin-top: 10px
+}
+
