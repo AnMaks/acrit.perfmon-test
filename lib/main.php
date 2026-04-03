@@ -20,10 +20,6 @@ class Main
         return self::MODULE_ID;
     }
 
-    public static function moduleRoot(): string
-    {
-        return dirname(__DIR__);
-    }
 
     public static function getMessage(string $code, array $replace = []): string
     {
@@ -35,24 +31,9 @@ class Main
         return (string)Option::get(self::MODULE_ID, $name, $default);
     }
 
-    public static function setOption(string $name, string $value): void
-    {
-        Option::set(self::MODULE_ID, $name, $value);
-    }
-
-    public static function isEnabled(): bool
-    {
-        return self::getOption(OptionHelper::OPTION_ENABLED, 'Y') === 'Y';
-    }
-
     public static function isLogEnabled(): bool
     {
         return self::getOption(OptionHelper::OPTION_LOG_ENABLED, 'Y') === 'Y';
-    }
-
-    public static function getSupportEmail(): string
-    {
-        return self::getOption(OptionHelper::OPTION_SUPPORT_EMAIL, 'support@example.com');
     }
 
     public static function getHistoryLimit(): int

@@ -29,8 +29,4 @@ abstract class AbstractTest implements TestInterface
         return in_array($value, ['1', 'on', 'yes', 'true'], true);
     }
 
-    protected function iniInt(string $name): int
-    {
-        return (int)ini_get($name);
-    }
 }

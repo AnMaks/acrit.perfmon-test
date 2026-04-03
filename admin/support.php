@@ -26,7 +26,7 @@ $autoFilled = $prefilledReport !== '';
 
 $documentationUrl = 'https://www.acrit-studio.ru/technical-support/';
 $requirementsUrl = '/bitrix/admin/site_checker.php?lang=' . LANGUAGE_ID;
-$ideaUrl = 'https://www.acrit-studio.ru/services/idea/';
+$ideaUrl = 'https://www.acrit-studio.ru/technical-support/';
 $siteDomain = preg_replace('#:(\d+)$#', '', (string)\Bitrix\Main\Context::getCurrent()->getServer()->getHttpHost());
 $bitrixVersion = defined('SM_VERSION') ? SM_VERSION . ' (' . SM_VERSION_DATE . ')' : '';
 $siteEncoding = defined('SITE_CHARSET') ? SITE_CHARSET : '';

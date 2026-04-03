@@ -46,5 +46,5 @@ $MESS['ACRIT_PERFMON_STATUS_OK_SHORT'] = 'Успешно';
 $MESS['ACRIT_PERFMON_STATUS_FAIL_SHORT'] = 'Ошибка';
 $MESS['ACRIT_PERFMON_HISTORY_SETTINGS_TITLE'] = 'Настройки истории запусков';
 $MESS['ACRIT_PERFMON_HISTORY_SETTINGS_SAVE'] = 'Сохранить';
-$MESS['ACRIT_PERFMON_HISTORY_SETTINGS_NOTE'] = 'Журнал ограничивается и количеством, и сроком хранения. Сначала удаляются слишком старые отчёты, затем всё сверх лимита.';
+$MESS['ACRIT_PERFMON_HISTORY_SETTINGS_NOTE'] = 'Журнал отчетов количеством и сроком хранения.';
 $MESS['ACRIT_PERFMON_HISTORY_SETTINGS_SAVED'] = 'Настройки истории запусков сохранены.';
